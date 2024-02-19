@@ -220,6 +220,7 @@ You can specify:
 
 * ``clean`` golang packages, removed using ``go clean -i <item>...``.
 * ``goget`` golang packages, installed using ``go get``.
+* ``goinstall`` golang packages, installed using ``go install``.
 
 
 ``packages.remote_pkgs``

@@ -88,6 +88,9 @@ packages:
     clean:
       - github.com/golang/example/hello
       - github.com/golang/example/outyet
+    install:
+      - {pkg: github.com/golang/example/hello, destdir: /usr/local/bin}
+      - github.com/golang/example/outyet
 
   npms:
     # yamllint disable rule:line-length
